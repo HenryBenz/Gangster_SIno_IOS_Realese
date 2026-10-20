@@ -1,0 +1,38 @@
+[
+  {
+    "id": "king_of_last_call",
+    "title": "King of the Last Call",
+    "music": "music_ending_triumph",
+    "image": "ending_king_of_last_call",
+    "badge": "badge_ending_king",
+    "sceneId": "ending_king",
+    "paragraphs": [
+      "The crew stands together while the city below turns gold. Influence held, Heat stayed below the line, and loyalty kept every chair filled.",
+      "Vincent is slightly forward, but the group is equal. The night ends with the table intact and the doors still open."
+    ]
+  },
+  {
+    "id": "family_holds",
+    "title": "The Family Holds",
+    "music": "music_ending_loyalty",
+    "image": "ending_family_holds",
+    "badge": "badge_ending_family",
+    "sceneId": "ending_family",
+    "paragraphs": [
+      "The numbers are not a coronation. What holds is the crew, gathered after closing with the books shut and the lamps low.",
+      "Power can wait. The people at the table do not. Loyalty is the thing the night kept."
+    ]
+  },
+  {
+    "id": "city_without_boss",
+    "title": "City Without a Boss",
+    "music": "music_ending_empty_city",
+    "image": "ending_city_without_boss",
+    "badge": "badge_ending_empty_city",
+    "sceneId": "ending_city",
+    "paragraphs": [
+      "Heat, lost loyalty, or a city that would not be led leaves the office empty at dawn. Six chairs remain around the table.",
+      "No one name stays over the door. The night is over, and the city keeps moving without a boss."
+    ]
+  }
+]

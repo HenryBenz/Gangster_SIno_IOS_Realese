@@ -1,0 +1,4108 @@
+[
+  {
+    "id": "n1_dusk_a",
+    "night": 1,
+    "phase": "dusk",
+    "title": "The Empty Chair",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "Vincent keeps one chair empty and waits.",
+    "description": "Vincent asks you to take the seat for one night. Talk the room into order, or push and make the first hour careful.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 4,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Leaving this chair costs a little Influence.",
+    "strongSuccess": {
+      "cash": 30,
+      "influence": 4,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The chair accepts you. The crew listens."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You take the seat. The night can start."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "The greeting stumbles and the room goes careful."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "The empty chair sits cold, and a little Influence goes with it."
+    }
+  },
+  {
+    "id": "n1_dusk_b",
+    "night": 1,
+    "phase": "dusk",
+    "title": "Words at the Door",
+    "locationName": "Club Exterior",
+    "background": "bg_club_exterior",
+    "icon": "decor_rotary_phone",
+    "setup": "A doorman wants a name before anyone comes in.",
+    "description": "The door is the first test. Give the crew a clean introduction, or make the entrance louder than it needs to be.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 4,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the door costs a little Influence.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The door opens on your words."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You are let inside without a fuss."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "The door stays polite and closed."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "The door remembers that nobody answered."
+    }
+  },
+  {
+    "id": "n1_midnight_a",
+    "night": 1,
+    "phase": "midnight",
+    "title": "A Name at the Table",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_gold_lighter",
+    "setup": "The club wants to know who speaks for the crew.",
+    "description": "One name has to sit on the table. Charm makes it easy. Nerve makes it a contest.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 5,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "club"
+    ],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the introduction adds a little Heat.",
+    "strongSuccess": {
+      "cash": 40,
+      "influence": 4,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "Your name lands cleanly. The table relaxes."
+    },
+    "success": {
+      "cash": 20,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The table accepts the name and moves on."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The name is questioned, and the room watches."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "An unnamed seat leaves the club slightly warmer with Heat."
+    }
+  },
+  {
+    "id": "n1_midnight_b",
+    "night": 1,
+    "phase": "midnight",
+    "title": "The Quiet Count",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_green_ledger",
+    "setup": "Elias wants the night’s numbers agreed before Last Call.",
+    "description": "A short count now prevents a long argument later. Cunning fits the books. Charm can still carry it.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 5,
+    "threat": "uncertain",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "cash",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the count costs a little Cash.",
+    "strongSuccess": {
+      "cash": 50,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The count is clean and the cash is real."
+    },
+    "success": {
+      "cash": 20,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The numbers are close enough to trust."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "The count slips and the safehouse goes quiet."
+    },
+    "ignored": {
+      "cash": -10,
+      "influence": 0,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "The uncounted cash is a little short by morning."
+    }
+  },
+  {
+    "id": "n1_lastCall_a",
+    "night": 1,
+    "phase": "lastCall",
+    "title": "Close the Room",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_city_clock",
+    "setup": "The night has to be closed with the crew still in the room.",
+    "description": "Say what the night meant, then let people leave. A firm close works. A clever one works too.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 5,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the close costs a little Loyalty in the room.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 3,
+      "heat": -1,
+      "loyalty": 2,
+      "text": "The room closes on good terms."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The crew leaves knowing who decides tonight."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The close is clumsy and people leave early."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unclosed room costs a little Influence."
+    }
+  },
+  {
+    "id": "n1_lastCall_b",
+    "night": 1,
+    "phase": "lastCall",
+    "title": "Walk the Block",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_city_clock",
+    "setup": "Someone has to see the crew home without a scene.",
+    "description": "The block is quiet if Nerve stays calm. Charm can do it. A trick is the risky way.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 5,
+    "threat": "uncertain",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "heat",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the walk adds a little Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -2,
+      "loyalty": 2,
+      "text": "The block stays quiet and the crew gets home."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "You walk them home without a story."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The walk draws eyes and Heat."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "An unwalked block picks up a little Heat."
+    }
+  },
+  {
+    "id": "n2_dusk_a",
+    "night": 2,
+    "phase": "dusk",
+    "title": "The Velvet Rope",
+    "locationName": "Club Exterior",
+    "background": "bg_club_exterior",
+    "icon": "decor_gold_coin",
+    "setup": "Roxie’s rope is up, and the list is not free.",
+    "description": "A social entrance. Preparation buys a cleaner approach. The club is watching the money as much as the names.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 5,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "club",
+      "society"
+    ],
+    "rewardIcons": [
+      "influence",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the rope adds Heat and costs a little Influence.",
+    "strongSuccess": {
+      "cash": 80,
+      "influence": 5,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The rope drops. The club treats you as expected."
+    },
+    "success": {
+      "cash": 40,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You get in, and the tab is ordinary."
+    },
+    "failure": {
+      "cash": -20,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The rope stays up and the entrance looks cheap."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "The closed rope leaves the club talking."
+    }
+  },
+  {
+    "id": "n2_dusk_b",
+    "night": 2,
+    "phase": "dusk",
+    "title": "The Guest List",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_blue_folder",
+    "setup": "A society table wants its list confirmed in person.",
+    "description": "This is a social job. Cash preparation helps. Charm is the clean way through the names.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 5,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "society"
+    ],
+    "rewardIcons": [
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the list costs Influence.",
+    "strongSuccess": {
+      "cash": 60,
+      "influence": 5,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The list is yours, and the table is friendly."
+    },
+    "success": {
+      "cash": 30,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The names are accepted."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "A wrong name cools the room."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unchecked list costs Influence."
+    }
+  },
+  {
+    "id": "n2_midnight_a",
+    "night": 2,
+    "phase": "midnight",
+    "title": "The Society Booth",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_trumpet",
+    "setup": "A booth of patrons will trade favors for a good story.",
+    "description": "Society work. Outsmart finds the useful favor. Talk keeps it graceful. Standing firm is loud in here.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "society",
+      "club"
+    ],
+    "rewardIcons": [
+      "influence",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the booth adds Heat.",
+    "strongSuccess": {
+      "cash": 100,
+      "influence": 6,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The booth offers a favor and pays for the story."
+    },
+    "success": {
+      "cash": 40,
+      "influence": 3,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "You leave with a smaller favor."
+    },
+    "failure": {
+      "cash": -30,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": -1,
+      "text": "The booth decides you are trying too hard."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An ignored booth adds Heat."
+    }
+  },
+  {
+    "id": "n2_midnight_b",
+    "night": 2,
+    "phase": "midnight",
+    "title": "The Bandstand",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_trumpet",
+    "setup": "Miles can make the room listen, if the approach fits the club.",
+    "description": "A club operation. Charm rides the music. Cunning picks the song that matters.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "club"
+    ],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the bandstand costs a little Cash.",
+    "strongSuccess": {
+      "cash": 40,
+      "influence": 4,
+      "heat": -1,
+      "loyalty": 2,
+      "text": "The room listens, and the crew looks settled."
+    },
+    "success": {
+      "cash": 20,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The set does its job."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The set feels forced and the room drifts."
+    },
+    "ignored": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "The unpaid set still costs a little Cash."
+    }
+  },
+  {
+    "id": "n2_lastCall_a",
+    "night": 2,
+    "phase": "lastCall",
+    "title": "The Closing Tab",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_cash_bundle",
+    "setup": "The club’s tab has to be settled before the lights change.",
+    "description": "Cash is the point. A clever settlement saves money. Talk can still charm the total down.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "club"
+    ],
+    "rewardIcons": [
+      "cash",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the tab adds Heat.",
+    "strongSuccess": {
+      "cash": 120,
+      "influence": 2,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The tab closes clean and the cash comes back."
+    },
+    "success": {
+      "cash": 40,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The tab is paid without a scene."
+    },
+    "failure": {
+      "cash": -40,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": -1,
+      "text": "The tab becomes a story, and Heat comes with it."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An open tab adds Heat."
+    }
+  },
+  {
+    "id": "n2_lastCall_b",
+    "night": 2,
+    "phase": "lastCall",
+    "title": "The Last Seat",
+    "locationName": "Club Exterior",
+    "background": "bg_club_exterior",
+    "icon": "decor_gold_lighter",
+    "setup": "One patron still wants a word at the door.",
+    "description": "A social goodbye. Charm sends them off. Nerve makes it short. A scheme is unnecessary.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 5,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "society"
+    ],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the patron costs Influence.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 4,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The patron leaves impressed."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The goodbye is enough."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "The patron leaves annoyed."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unanswered patron costs Influence."
+    }
+  },
+  {
+    "id": "n3_dusk_a",
+    "night": 3,
+    "phase": "dusk",
+    "title": "The Empty Drawer",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_green_ledger",
+    "setup": "The payment envelope is gone from the drawer.",
+    "description": "Loyalty is the question. People talk if they trust the chair. Pressure makes them protect themselves.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 5,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the drawer costs Loyalty.",
+    "strongSuccess": {
+      "cash": 80,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 4,
+      "text": "The drawer’s story comes out, and trust rises."
+    },
+    "success": {
+      "cash": 30,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "You learn enough, and the crew stays with you."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -3,
+      "text": "Accusations stick, and loyalty drops."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unopened drawer costs a little trust."
+    }
+  },
+  {
+    "id": "n3_dusk_b",
+    "night": 3,
+    "phase": "dusk",
+    "title": "Who Saw the Courier",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_blue_folder",
+    "setup": "Someone on the street saw the envelope change hands.",
+    "description": "Ask cleanly and loyalty holds. A clever watch works. A hard demand makes people lie.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 5,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the courier adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "The courier’s path is clear, and people are glad you asked."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "You get a direction without a fight."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -3,
+      "text": "The street shuts up and loyalty thins."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "An ignored sighting adds Heat."
+    }
+  },
+  {
+    "id": "n3_midnight_a",
+    "night": 3,
+    "phase": "midnight",
+    "title": "A Loyal Denial",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "One crew member denies touching the envelope.",
+    "description": "Believe carefully. Cunning reads the denial. Charm keeps the person in the crew. Nerve is the risky test.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the denial costs Loyalty.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 4,
+      "text": "The denial breaks into the truth, and trust returns."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "You leave the person their dignity and a warning."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": -4,
+      "text": "The denial becomes a wound."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unheard denial costs Loyalty."
+    }
+  },
+  {
+    "id": "n3_midnight_b",
+    "night": 3,
+    "phase": "midnight",
+    "title": "The Side Count",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_cash_bundle",
+    "setup": "A second count might show where the cash slipped.",
+    "description": "The books can restore loyalty if they are fair. A public count is riskier.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "cash",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the count costs Cash.",
+    "strongSuccess": {
+      "cash": 100,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "The missing sum is found and the crew exhales."
+    },
+    "success": {
+      "cash": 40,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The count is close, and people calm down."
+    },
+    "failure": {
+      "cash": -20,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The count accuses the wrong person."
+    },
+    "ignored": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "Uncounted cash stays missing."
+    }
+  },
+  {
+    "id": "n3_lastCall_a",
+    "night": 3,
+    "phase": "lastCall",
+    "title": "Return the Envelope",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "The envelope can come back to the table before dawn.",
+    "description": "Returning it in person repairs loyalty. Making a show of it does not.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the return costs Loyalty.",
+    "strongSuccess": {
+      "cash": 60,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 4,
+      "text": "The envelope is back, and the table believes you."
+    },
+    "success": {
+      "cash": 20,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The money returns. The mood is repairable."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 2,
+      "loyalty": -3,
+      "text": "The return looks like a trick."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unreturned envelope costs Loyalty."
+    }
+  },
+  {
+    "id": "n3_lastCall_b",
+    "night": 3,
+    "phase": "lastCall",
+    "title": "A Name in the Margin",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_green_ledger",
+    "setup": "Elias finds a name written in the margin of the book.",
+    "description": "Decide whether to share it. Cunning protects the crew. Talking it out protects loyalty.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the name adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "The name is handled quietly and loyalty holds."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "You tell the crew enough."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -3,
+      "text": "The name gets out and people take sides."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An unread name adds Heat."
+    }
+  },
+  {
+    "id": "n4_dusk_a",
+    "night": 4,
+    "phase": "dusk",
+    "title": "Blue at the Corner",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_city_clock",
+    "setup": "Blue lights sit at the end of the street. The crew needs the corner calm.",
+    "description": "Heat is the risk. A quiet Charm approach keeps the block ordinary. Nerve can hold a line if it stays still.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 6,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "heat",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the corner adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 3,
+      "heat": -6,
+      "loyalty": 1,
+      "text": "The corner goes quiet and Heat falls."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -3,
+      "loyalty": 1,
+      "text": "You pass the lights without a story."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 6,
+      "loyalty": -1,
+      "text": "The corner notices you, and Heat climbs."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An ignored corner adds Heat."
+    }
+  },
+  {
+    "id": "n4_dusk_b",
+    "night": 4,
+    "phase": "dusk",
+    "title": "Quiet the Block",
+    "locationName": "Waterfront",
+    "background": "bg_waterfront",
+    "icon": "decor_rotary_phone",
+    "setup": "Word is moving along the water. Someone should slow it down.",
+    "description": "A cunning quiet costs nothing loud. Talk can settle the talkers. A firm visit raises Heat.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the block adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -5,
+      "loyalty": 1,
+      "text": "The talk dies down and Heat drops."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The block is quieter than it was."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 5,
+      "loyalty": -1,
+      "text": "The visit is noticed."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An unquieted block adds Heat."
+    }
+  },
+  {
+    "id": "n4_midnight_a",
+    "night": 4,
+    "phase": "midnight",
+    "title": "Lights on the Avenue",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_city_clock",
+    "setup": "The avenue is bright with attention. The crew should not add to it.",
+    "description": "Move people off the bright street. Nerve holds them steady. Charm gives them a reason.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "heat",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the avenue adds a lot of Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -4,
+      "loyalty": 2,
+      "text": "The avenue empties and Heat falls."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "You get the crew off the bright street."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 7,
+      "loyalty": -2,
+      "text": "The avenue watches the whole walk."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 4,
+      "loyalty": 0,
+      "text": "An ignored avenue adds Heat and costs Influence."
+    }
+  },
+  {
+    "id": "n4_midnight_b",
+    "night": 4,
+    "phase": "midnight",
+    "title": "The Unmarked Stop",
+    "locationName": "Garage",
+    "background": "bg_garage",
+    "icon": "decor_wrench",
+    "setup": "A car is waiting where it should not be. Decide how the crew leaves.",
+    "description": "Transport under attention. A clever exit lowers Heat. Talking to the driver can work.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the stop adds Heat.",
+    "strongSuccess": {
+      "cash": 30,
+      "influence": 1,
+      "heat": -5,
+      "loyalty": 1,
+      "text": "The car leaves unseen and Heat drops."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "You leave without a follower."
+    },
+    "failure": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 5,
+      "loyalty": -1,
+      "text": "The stop becomes a scene."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An ignored stop adds Heat."
+    }
+  },
+  {
+    "id": "n4_lastCall_a",
+    "night": 4,
+    "phase": "lastCall",
+    "title": "Dim the Club",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_gold_lighter",
+    "setup": "The club is too bright for the kind of night this is.",
+    "description": "A club operation. Dimming the room drops Heat if it is done with poise.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "club"
+    ],
+    "rewardIcons": [
+      "heat",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the lights adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 3,
+      "heat": -6,
+      "loyalty": 1,
+      "text": "The room dims, and the night feels smaller and safer."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -3,
+      "loyalty": 1,
+      "text": "The lights come down."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The room stays bright and busy."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "Bright windows add Heat."
+    }
+  },
+  {
+    "id": "n4_lastCall_b",
+    "night": 4,
+    "phase": "lastCall",
+    "title": "Walk Them Off the Street",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_city_clock",
+    "setup": "The crew is still visible. Get them inside before the lights sweep back.",
+    "description": "Nerve keeps the walk disciplined. Charm makes it look social. A trick looks guilty.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "heat",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the walk adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -5,
+      "loyalty": 2,
+      "text": "Everyone is inside. Heat falls."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The street is empty of the crew."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 6,
+      "loyalty": -2,
+      "text": "The walk is seen."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 4,
+      "loyalty": 0,
+      "text": "People left on the street add Heat."
+    }
+  },
+  {
+    "id": "n5_dusk_a",
+    "night": 5,
+    "phase": "dusk",
+    "title": "Bruno’s Priority",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "Bruno wants the crew protected before any errand is run.",
+    "description": "He and Elias do not agree. A pair that trusts each other gains a point. A tense pair loses one.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring Bruno’s worry adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -2,
+      "loyalty": 2,
+      "text": "The crew is covered, and Bruno trusts the call."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "Protection comes first, and the night moves."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -2,
+      "text": "The worry was right, and people feel exposed."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An unprotected hour adds Heat."
+    }
+  },
+  {
+    "id": "n5_dusk_b",
+    "night": 5,
+    "phase": "dusk",
+    "title": "Elias’s Priority",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_green_ledger",
+    "setup": "Elias wants the books settled before anyone takes a risk.",
+    "description": "The argument is the mechanic. Partnerships help. Bruno and Elias together bring tension.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "cash",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the books costs Cash.",
+    "strongSuccess": {
+      "cash": 60,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The books are safe, and Elias is with you."
+    },
+    "success": {
+      "cash": 20,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The urgent line is settled."
+    },
+    "failure": {
+      "cash": -20,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The delay costs cash and patience."
+    },
+    "ignored": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "Unsettled books cost Cash."
+    }
+  },
+  {
+    "id": "n5_midnight_a",
+    "night": 5,
+    "phase": "midnight",
+    "title": "The Pair at the Door",
+    "locationName": "Club Exterior",
+    "background": "bg_club_exterior",
+    "icon": "decor_gold_lighter",
+    "setup": "Two of the crew have to meet a contact together.",
+    "description": "Who you pair changes the score. Old partners add one. Tension subtracts one.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "club"
+    ],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the contact costs Influence.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 4,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The pair looks united, and the contact believes it."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The meeting holds."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "The pair argues in front of the contact."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "A missed meeting costs Influence."
+    }
+  },
+  {
+    "id": "n5_midnight_b",
+    "night": 5,
+    "phase": "midnight",
+    "title": "Separate Tables",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_trumpet",
+    "setup": "The disagreement can be kept at two tables instead of one fight.",
+    "description": "A social split. Charm keeps both sides talking to you.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "club",
+      "society"
+    ],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the split adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": -1,
+      "loyalty": 2,
+      "text": "Both tables stay in the crew."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The argument stays private."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -2,
+      "text": "The split becomes public."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "A public argument adds Heat."
+    }
+  },
+  {
+    "id": "n5_lastCall_a",
+    "night": 5,
+    "phase": "lastCall",
+    "title": "One Plan",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "The crew needs one plan before the night ends.",
+    "description": "Say it plainly. A steady pair makes the plan land. A tense pair makes it wobble.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the plan costs Loyalty.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "One plan, and the table agrees."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The plan is accepted."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The plan sounds like a winner being picked."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "No plan costs Loyalty."
+    }
+  },
+  {
+    "id": "n5_lastCall_b",
+    "night": 5,
+    "phase": "lastCall",
+    "title": "Two Voices",
+    "locationName": "Rooftop",
+    "background": "bg_rooftop",
+    "icon": "decor_city_clock",
+    "setup": "Bruno and Elias both want the last word.",
+    "description": "You can let a calm pair carry it, or stand between them yourself.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the argument costs Loyalty.",
+    "strongSuccess": {
+      "cash": 0,
+      "influence": 2,
+      "heat": -1,
+      "loyalty": 3,
+      "text": "Both voices are heard, and both stay."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The argument ends without a winner."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -3,
+      "text": "One of them leaves the roof angry."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unfinished argument costs Influence."
+    }
+  },
+  {
+    "id": "n6_dusk_a",
+    "night": 6,
+    "phase": "dusk",
+    "title": "The Ally’s Call",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_rotary_phone",
+    "setup": "An old ally calls the safehouse and asks for the crew.",
+    "description": "Answer with care. The favor itself is decided in the conversation after this phase.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the call adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The ally hears a steady voice."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You take the call."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The call goes badly before the favor is even named."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "A missed call adds Heat."
+    }
+  },
+  {
+    "id": "n6_dusk_b",
+    "night": 6,
+    "phase": "dusk",
+    "title": "A Message Left Behind",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_blue_folder",
+    "setup": "The ally left a message instead of waiting.",
+    "description": "Read it before the street does. Cunning keeps it private.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the message costs Influence.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The message is yours alone."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You understand what is being asked."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "Someone else reads it first."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unread message costs Influence."
+    }
+  },
+  {
+    "id": "n6_midnight_a",
+    "night": 6,
+    "phase": "midnight",
+    "title": "The Favor’s Price",
+    "locationName": "Waterfront",
+    "background": "bg_waterfront",
+    "icon": "decor_cash_bundle",
+    "setup": "The ally’s people are at the water, waiting to see the choice made real.",
+    "description": "Charm explains it. Nerve holds the meeting. The price is social, not a fight.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the meeting adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 4,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The meeting matches the promise you made."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You show up, and that is most of it."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 3,
+      "loyalty": -1,
+      "text": "The waterfront waits, then judges."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An empty meeting adds Heat."
+    }
+  },
+  {
+    "id": "n6_midnight_b",
+    "night": 6,
+    "phase": "midnight",
+    "title": "A Closed Door",
+    "locationName": "Club Exterior",
+    "background": "bg_club_exterior",
+    "icon": "decor_gold_lighter",
+    "setup": "The club can be closed to the ally’s errand.",
+    "description": "A social refusal or welcome. The door is Roxie’s kind of problem.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "club",
+      "society"
+    ],
+    "rewardIcons": [
+      "heat",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the door adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 3,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The door does exactly what you need."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The club stays orderly."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The door becomes a scene."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An unattended door adds Heat."
+    }
+  },
+  {
+    "id": "n6_lastCall_a",
+    "night": 6,
+    "phase": "lastCall",
+    "title": "Keep the Word",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "Whatever you chose, the crew wants to hear it said once.",
+    "description": "Say the decision plainly. Loyalty follows clarity.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the crew costs Loyalty.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "The crew knows where you stand."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The word is clear enough."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The crew hears two different stories."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "Silence at the table costs Influence."
+    }
+  },
+  {
+    "id": "n6_lastCall_b",
+    "night": 6,
+    "phase": "lastCall",
+    "title": "Cut the Line",
+    "locationName": "Garage",
+    "background": "bg_garage",
+    "icon": "decor_rotary_phone",
+    "setup": "The ally’s line can be closed for the rest of the night.",
+    "description": "A transport-side cutoff. Cunning does it cleanly. Talking does it kindly.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the line adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -3,
+      "loyalty": 1,
+      "text": "The line goes quiet."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The calls stop."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": -1,
+      "text": "The line stays open and noisy."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An open line adds Heat."
+    }
+  },
+  {
+    "id": "n7_dusk_a",
+    "night": 7,
+    "phase": "dusk",
+    "title": "The Gold Room",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_gold_coin",
+    "setup": "A high room will only receive two people from the crew.",
+    "description": "Both seats have to be filled. Influence is the prize. Heat is the cost of clumsiness.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "society",
+      "club"
+    ],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 2,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the room costs Influence.",
+    "strongSuccess": {
+      "cash": 40,
+      "influence": 8,
+      "heat": 1,
+      "loyalty": 2,
+      "text": "The room treats the pair as the crew’s voice."
+    },
+    "success": {
+      "cash": 20,
+      "influence": 5,
+      "heat": 2,
+      "loyalty": 1,
+      "text": "You are received, and Influence moves."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 5,
+      "loyalty": -1,
+      "text": "The room decides the pair was not ready."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "An empty invitation costs Influence and adds Heat."
+    }
+  },
+  {
+    "id": "n7_dusk_b",
+    "night": 7,
+    "phase": "dusk",
+    "title": "The Balcony List",
+    "locationName": "Rooftop",
+    "background": "bg_rooftop",
+    "icon": "decor_blue_folder",
+    "setup": "Names are being traded on a balcony above the city.",
+    "description": "Send two. Charm collects names. Cunning knows which names matter.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "society"
+    ],
+    "rewardIcons": [
+      "influence"
+    ],
+    "minCharacters": 2,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the balcony adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 7,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The list comes back with you."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 4,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "You leave with the useful names."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The balcony keeps its list."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An unattended balcony adds Heat."
+    }
+  },
+  {
+    "id": "n7_midnight_a",
+    "night": 7,
+    "phase": "midnight",
+    "title": "Two at the Column",
+    "locationName": "Club Exterior",
+    "background": "bg_club_exterior",
+    "icon": "decor_gold_lighter",
+    "setup": "A photographer and a patron are both watching the column.",
+    "description": "Two of the crew can make the moment look intended. One would look like a mistake.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 8,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [
+      "society"
+    ],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 2,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the column adds Heat.",
+    "strongSuccess": {
+      "cash": 30,
+      "influence": 8,
+      "heat": -1,
+      "loyalty": 2,
+      "text": "The moment looks like power, not panic."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 4,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "You pass the column cleanly."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 6,
+      "loyalty": -2,
+      "text": "The column becomes the story."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An ignored column adds Heat and costs Influence."
+    }
+  },
+  {
+    "id": "n7_midnight_b",
+    "night": 7,
+    "phase": "midnight",
+    "title": "The Donor Circle",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_cash_bundle",
+    "setup": "A circle of donors will fund a favor if the pair feels expensive and calm.",
+    "description": "Society and cash. Preparation helps. Two skilled people can clear the threshold.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 8,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "society"
+    ],
+    "rewardIcons": [
+      "cash",
+      "influence"
+    ],
+    "minCharacters": 2,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the circle costs Cash.",
+    "strongSuccess": {
+      "cash": 150,
+      "influence": 6,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "The circle pays and asks for nothing loud."
+    },
+    "success": {
+      "cash": 60,
+      "influence": 3,
+      "heat": 2,
+      "loyalty": 1,
+      "text": "A smaller gift, still real."
+    },
+    "failure": {
+      "cash": -40,
+      "influence": -2,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The circle feels hustled."
+    },
+    "ignored": {
+      "cash": -30,
+      "influence": 0,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "An ignored circle costs Cash and adds Heat."
+    }
+  },
+  {
+    "id": "n7_lastCall_a",
+    "night": 7,
+    "phase": "lastCall",
+    "title": "The Last Toast",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_trumpet",
+    "setup": "The room wants a toast from two of the crew, not a speech from one.",
+    "description": "Charm carries it. A steady second person keeps it from looking lonely.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "club",
+      "society"
+    ],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 2,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the toast costs Influence.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 6,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The toast lands. The room remembers the crew, not a boss."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The toast is enough."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The toast sounds like a claim."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "A missing toast costs Influence."
+    }
+  },
+  {
+    "id": "n7_lastCall_b",
+    "night": 7,
+    "phase": "lastCall",
+    "title": "The Side Exit",
+    "locationName": "Garage",
+    "background": "bg_garage",
+    "icon": "decor_wrench",
+    "setup": "The pair should leave before the room decides to follow.",
+    "description": "A transport exit for two. Cunning times it. Nerve keeps it calm.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "talk",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat"
+    ],
+    "minCharacters": 2,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the exit adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -4,
+      "loyalty": 1,
+      "text": "The exit is clean and Heat falls."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "You are gone before the story grows."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 5,
+      "loyalty": -1,
+      "text": "The exit is seen."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "A late exit adds Heat."
+    }
+  },
+  {
+    "id": "n8_dusk_a",
+    "night": 8,
+    "phase": "dusk",
+    "title": "The Known Route",
+    "locationName": "Garage",
+    "background": "bg_garage",
+    "icon": "decor_wrench",
+    "setup": "June says the usual route is no longer private.",
+    "description": "A transport job. Cash preparation is waived if June is assigned. The hint is the cost of ignoring it.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "talk",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring this route adds Heat.",
+    "strongSuccess": {
+      "cash": 40,
+      "influence": 2,
+      "heat": -3,
+      "loyalty": 1,
+      "text": "You leave on a route nobody else knows."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The drive stays ordinary."
+    },
+    "failure": {
+      "cash": -30,
+      "influence": 0,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The known route is watched."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An unchanged route adds Heat."
+    }
+  },
+  {
+    "id": "n8_dusk_b",
+    "night": 8,
+    "phase": "dusk",
+    "title": "A Tail on the Garage",
+    "locationName": "Garage",
+    "background": "bg_garage",
+    "icon": "decor_city_clock",
+    "setup": "Someone is watching the garage from the alley.",
+    "description": "Deal with the watcher before the cars move. Nerve can hold. Cunning can mislead.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "talk",
+    "threshold": 6,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the watcher adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -4,
+      "loyalty": 1,
+      "text": "The watcher loses the garage."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The alley goes empty."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 5,
+      "loyalty": -1,
+      "text": "The watcher keeps the garage."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An ignored watcher adds Heat."
+    }
+  },
+  {
+    "id": "n8_midnight_a",
+    "night": 8,
+    "phase": "midnight",
+    "title": "Switch the Car",
+    "locationName": "Waterfront",
+    "background": "bg_waterfront",
+    "icon": "decor_wrench",
+    "setup": "The crew can change cars where the water hides the exchange.",
+    "description": "Transport. June’s trait keeps the preparation from spending Cash.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the switch adds Heat and costs Cash.",
+    "strongSuccess": {
+      "cash": 30,
+      "influence": 1,
+      "heat": -3,
+      "loyalty": 1,
+      "text": "The second car leaves clean."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The switch works."
+    },
+    "failure": {
+      "cash": -40,
+      "influence": 0,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The switch is photographed in someone’s head."
+    },
+    "ignored": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "No switch costs Cash and adds Heat."
+    }
+  },
+  {
+    "id": "n8_midnight_b",
+    "night": 8,
+    "phase": "midnight",
+    "title": "The Quiet Drop",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_blue_folder",
+    "setup": "A packet has to move one street without becoming a story.",
+    "description": "Cunning fits a drop. Charm can make the handoff look social.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 6,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the drop costs Influence.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The packet moves and nobody names it."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The drop is done."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": -1,
+      "text": "The drop is the new rumor."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "A missed drop costs Influence and adds Heat."
+    }
+  },
+  {
+    "id": "n8_lastCall_a",
+    "night": 8,
+    "phase": "lastCall",
+    "title": "Lose the Map",
+    "locationName": "Rooftop",
+    "background": "bg_rooftop",
+    "icon": "decor_blue_folder",
+    "setup": "If someone knows the routes, the old map has to stop being useful.",
+    "description": "Destroy the pattern, not the city. Cunning rewrites the habit.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "talk",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the map adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -4,
+      "loyalty": 1,
+      "text": "Tomorrow’s route is no longer today’s route."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The old map is useless."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The map still works for someone else."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "A kept map adds Heat."
+    }
+  },
+  {
+    "id": "n8_lastCall_b",
+    "night": 8,
+    "phase": "lastCall",
+    "title": "Hold the Wheel",
+    "locationName": "Garage",
+    "background": "bg_garage",
+    "icon": "decor_wrench",
+    "setup": "Someone has to drive the last leg as if nothing is wrong.",
+    "description": "Nerve keeps the drive steady. June belongs on a transport job like this.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "talk",
+    "threshold": 6,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "loyalty",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the drive adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 2,
+      "text": "The drive looks boring, which is the point."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "You arrive without a story."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The drive looks like a getaway."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "No driver adds Heat."
+    }
+  },
+  {
+    "id": "n9_dusk_a",
+    "night": 9,
+    "phase": "dusk",
+    "title": "The Bad Page",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_green_ledger",
+    "setup": "Elias has a page that does not match the crew’s memory.",
+    "description": "Read it before you choose what it costs. Cunning is the fit.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "cash",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the page costs Cash.",
+    "strongSuccess": {
+      "cash": 40,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The page is understood."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You see the shape of the manipulation."
+    },
+    "failure": {
+      "cash": -20,
+      "influence": -1,
+      "heat": 1,
+      "loyalty": -1,
+      "text": "The page is misread."
+    },
+    "ignored": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unread page costs Cash."
+    }
+  },
+  {
+    "id": "n9_dusk_b",
+    "night": 9,
+    "phase": "dusk",
+    "title": "A Second Set of Numbers",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_green_ledger",
+    "setup": "There is another set of numbers under the first.",
+    "description": "Compare them without turning the table against itself.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the second set costs Loyalty.",
+    "strongSuccess": {
+      "cash": 30,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The two sets explain each other."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You know which total is real."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The table argues about both."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An ignored set costs Influence."
+    }
+  },
+  {
+    "id": "n9_midnight_a",
+    "night": 9,
+    "phase": "midnight",
+    "title": "Who Altered the Book",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_gold_lighter",
+    "setup": "The handwriting is careful. The question is who benefited.",
+    "description": "Talk keeps the suspect in the conversation. Cunning narrows the list.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the question adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "You know who gained, and the crew stays whole."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The likely hand is named quietly."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": -2,
+      "text": "The accusation is bigger than the proof."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An unanswered alteration adds Heat."
+    }
+  },
+  {
+    "id": "n9_midnight_b",
+    "night": 9,
+    "phase": "midnight",
+    "title": "The Missing Line",
+    "locationName": "Waterfront",
+    "background": "bg_waterfront",
+    "icon": "decor_cash_bundle",
+    "setup": "A payment line never reached the book. It may still be at the water.",
+    "description": "Follow the cash. Preparation helps. This is not a transport waiver unless June is on a transport job; this one is not.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "talk",
+    "threshold": 7,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "cash"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the line costs Cash.",
+    "strongSuccess": {
+      "cash": 140,
+      "influence": 1,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "The line is recovered."
+    },
+    "success": {
+      "cash": 50,
+      "influence": 1,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "Part of the money comes back."
+    },
+    "failure": {
+      "cash": -30,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": -1,
+      "text": "The line is gone and someone noticed the search."
+    },
+    "ignored": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "A lost line costs Cash and adds Heat."
+    }
+  },
+  {
+    "id": "n9_lastCall_a",
+    "night": 9,
+    "phase": "lastCall",
+    "title": "Seal the Ledger",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_green_ledger",
+    "setup": "The book can be closed tonight if you accept the cost you already chose.",
+    "description": "Cunning seals it. Talk explains it to the crew.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the seal adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -2,
+      "loyalty": 2,
+      "text": "The ledger closes, and the argument can end."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The book is shut."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The book stays open and restless."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An open ledger adds Heat."
+    }
+  },
+  {
+    "id": "n9_lastCall_b",
+    "night": 9,
+    "phase": "lastCall",
+    "title": "Show the Page",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "You can show the crew the page or keep it between you and Elias.",
+    "description": "Showing it builds loyalty if the telling is fair. Hiding it is the risky play.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the page costs Loyalty.",
+    "strongSuccess": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "The crew sees the page and stays."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "You tell them the part that matters."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The reveal feels like a trap."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "A hidden page costs Influence."
+    }
+  },
+  {
+    "id": "n10_dusk_a",
+    "night": 10,
+    "phase": "dusk",
+    "title": "Smoke on the Roof",
+    "locationName": "Rooftop",
+    "background": "bg_rooftop",
+    "icon": "decor_city_clock",
+    "setup": "The district is picking sides, and the roof is where people look first.",
+    "description": "High pressure. Two strong skills, a partnership, or preparation can clear it.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 9,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the roof adds a lot of Heat.",
+    "strongSuccess": {
+      "cash": 30,
+      "influence": 6,
+      "heat": -2,
+      "loyalty": 2,
+      "text": "The roof is yours and the district sees a steady crew."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "You hold the roof."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -3,
+      "heat": 8,
+      "loyalty": -2,
+      "text": "The roof becomes a signal against you."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 4,
+      "loyalty": 0,
+      "text": "An empty roof adds Heat and costs Influence."
+    }
+  },
+  {
+    "id": "n10_dusk_b",
+    "night": 10,
+    "phase": "dusk",
+    "title": "The District Splits",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_blue_folder",
+    "setup": "Two blocks want two different promises before dawn.",
+    "description": "You can only be careful in one place. Charm keeps a promise small enough to keep.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 8,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the split adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 6,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "One honest promise holds a block."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 2,
+      "loyalty": 1,
+      "text": "The split slows down."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 7,
+      "loyalty": -2,
+      "text": "Both blocks hear a different story."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 4,
+      "loyalty": 0,
+      "text": "An ignored split adds Heat."
+    }
+  },
+  {
+    "id": "n10_midnight_a",
+    "night": 10,
+    "phase": "midnight",
+    "title": "A Hard Ask",
+    "locationName": "Waterfront",
+    "background": "bg_waterfront",
+    "icon": "decor_cash_bundle",
+    "setup": "Someone asks for more than the crew should give.",
+    "description": "Refuse cleanly or pay carefully. Nerve holds the line. The threshold is high.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "talk",
+    "threshold": 9,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "heat",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the ask adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 2,
+      "heat": -3,
+      "loyalty": 2,
+      "text": "The ask is refused without a feud."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You give less than they wanted and leave."
+    },
+    "failure": {
+      "cash": -40,
+      "influence": -2,
+      "heat": 8,
+      "loyalty": -2,
+      "text": "The ask turns into pressure."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 4,
+      "loyalty": 0,
+      "text": "An unanswered ask adds Heat."
+    }
+  },
+  {
+    "id": "n10_midnight_b",
+    "night": 10,
+    "phase": "midnight",
+    "title": "No Safe Street",
+    "locationName": "Old Street",
+    "background": "bg_old_street",
+    "icon": "decor_city_clock",
+    "setup": "For one hour, no street feels neutral.",
+    "description": "Cunning picks the least costly crossing. Standing still is riskier than it looks.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "talk",
+    "threshold": 8,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the crossing adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -4,
+      "loyalty": 1,
+      "text": "You cross while the attention is elsewhere."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The hour passes."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 8,
+      "loyalty": -2,
+      "text": "Every corner sees the crew."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 4,
+      "loyalty": 0,
+      "text": "A frozen hour adds Heat and costs Influence."
+    }
+  },
+  {
+    "id": "n10_lastCall_a",
+    "night": 10,
+    "phase": "lastCall",
+    "title": "Before Dawn",
+    "locationName": "Rooftop",
+    "background": "bg_rooftop",
+    "icon": "decor_city_clock",
+    "setup": "The sky is changing. The district is still choosing.",
+    "description": "A last controlled appearance. Charm, if the score is high enough, reads as confidence.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 9,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [
+      "society"
+    ],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the appearance costs Influence.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 7,
+      "heat": -2,
+      "loyalty": 2,
+      "text": "Dawn finds the crew looking deliberate."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 4,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "You are seen, and the seeing helps."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -3,
+      "heat": 6,
+      "loyalty": -2,
+      "text": "The appearance looks like doubt."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -3,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "No appearance costs Influence and adds Heat."
+    }
+  },
+  {
+    "id": "n10_lastCall_b",
+    "night": 10,
+    "phase": "lastCall",
+    "title": "The Last Open Door",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_gold_lighter",
+    "setup": "One door is still open to the crew. It will not stay open.",
+    "description": "Cunning knows which door. Nerve can hold it. This is a severe hour.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "talk",
+    "threshold": 8,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the door adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -3,
+      "loyalty": 2,
+      "text": "The door stays yours."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "You get inside and close it."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 7,
+      "loyalty": -2,
+      "text": "The door closes on someone else."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 4,
+      "loyalty": 0,
+      "text": "A lost door adds Heat."
+    }
+  },
+  {
+    "id": "n11_dusk_a",
+    "night": 11,
+    "phase": "dusk",
+    "title": "The Ally Returns",
+    "locationName": "Waterfront",
+    "background": "bg_waterfront",
+    "icon": "decor_rotary_phone",
+    "setup": "The ally from the broken promise is back, in person.",
+    "description": "What you chose then changes the weight of this meeting. Charm still does the talking.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "influence",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the ally adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 4,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The meeting fits the choice you already made."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "You face the ally."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 4,
+      "loyalty": -2,
+      "text": "The ally leaves the debt louder."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An avoided ally adds Heat."
+    }
+  },
+  {
+    "id": "n11_dusk_b",
+    "night": 11,
+    "phase": "dusk",
+    "title": "The Ledger Comes Due",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_green_ledger",
+    "setup": "The altered book is no longer a secret the night can hold.",
+    "description": "The sacrifice you chose is part of the air in the room. Cunning keeps the explanation exact.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "cash",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the ledger costs Cash.",
+    "strongSuccess": {
+      "cash": 40,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The book’s consequence is contained."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You answer for the page."
+    },
+    "failure": {
+      "cash": -30,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -2,
+      "text": "The page answers for you."
+    },
+    "ignored": {
+      "cash": -20,
+      "influence": 0,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "An ignored ledger costs Cash and adds Heat."
+    }
+  },
+  {
+    "id": "n11_midnight_a",
+    "night": 11,
+    "phase": "midnight",
+    "title": "Old Routes",
+    "locationName": "Garage",
+    "background": "bg_garage",
+    "icon": "decor_wrench",
+    "setup": "The routes June worried about are being used by other people now.",
+    "description": "Transport again. The district remembers who drove carefully.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "talk",
+    "threshold": 8,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [
+      "transport"
+    ],
+    "rewardIcons": [
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the routes adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -3,
+      "loyalty": 1,
+      "text": "You take the routes back without a parade."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The garage is yours for the hour."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 6,
+      "loyalty": -1,
+      "text": "Someone else is driving your map."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "Ignored routes add Heat."
+    }
+  },
+  {
+    "id": "n11_midnight_b",
+    "night": 11,
+    "phase": "midnight",
+    "title": "Old Rooms",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_trumpet",
+    "setup": "The club remembers every social debt from the gold night.",
+    "description": "A club and society room. Two people help. One skilled talker can still try.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 8,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "club",
+      "society"
+    ],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the room costs Influence.",
+    "strongSuccess": {
+      "cash": 30,
+      "influence": 5,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The room settles its memory in your favor."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 1,
+      "loyalty": 1,
+      "text": "The room lets the debt pass."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 4,
+      "loyalty": -1,
+      "text": "The room recites every slight."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "An empty room costs Influence and adds Heat."
+    }
+  },
+  {
+    "id": "n11_lastCall_a",
+    "night": 11,
+    "phase": "lastCall",
+    "title": "Every Chair",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "Every earlier choice has a chair at this table.",
+    "description": "Speak to the whole crew. Loyalty is the resource that answers.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the table costs Loyalty.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "The chairs stay filled."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The crew hears you out."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 2,
+      "loyalty": -3,
+      "text": "Empty answers empty chairs."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "A silent table costs Influence."
+    }
+  },
+  {
+    "id": "n11_lastCall_b",
+    "night": 11,
+    "phase": "lastCall",
+    "title": "The Bill on the Table",
+    "locationName": "Safehouse",
+    "background": "bg_safehouse",
+    "icon": "decor_cash_bundle",
+    "setup": "There is a final private bill, separate from the public Heat.",
+    "description": "Pay it cleverly or talk it down. Standing firm makes it personal.",
+    "suggestedSkill": "cunning",
+    "preferredApproach": "outsmart",
+    "neutralApproach": "talk",
+    "riskyApproach": "standFirm",
+    "threshold": 8,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "cash",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the bill adds Heat.",
+    "strongSuccess": {
+      "cash": 80,
+      "influence": 1,
+      "heat": -2,
+      "loyalty": 1,
+      "text": "The bill is smaller than the threat."
+    },
+    "success": {
+      "cash": 20,
+      "influence": 1,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The bill is paid and finished."
+    },
+    "failure": {
+      "cash": -40,
+      "influence": -1,
+      "heat": 5,
+      "loyalty": -1,
+      "text": "The bill becomes a grudge."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An unpaid bill adds Heat."
+    }
+  },
+  {
+    "id": "n12_dusk_a",
+    "night": 12,
+    "phase": "dusk",
+    "title": "The Final Table",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_blue_folder",
+    "setup": "The crew sits down for the last briefing of the night.",
+    "description": "This does not choose the ending. It shows whether the table still works.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the table costs Loyalty.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The table still works."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The briefing holds."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -2,
+      "text": "The table feels temporary."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An empty briefing costs Influence."
+    }
+  },
+  {
+    "id": "n12_dusk_b",
+    "night": 12,
+    "phase": "dusk",
+    "title": "One Last Door",
+    "locationName": "Club Exterior",
+    "background": "bg_club_exterior",
+    "icon": "decor_gold_lighter",
+    "setup": "The club door can be opened for allies or kept shut.",
+    "description": "A social last door. Charm keeps it gracious.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "club",
+      "society"
+    ],
+    "rewardIcons": [
+      "influence",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": {
+      "cost": 100,
+      "bonus": 2,
+      "label": "Pay 100 Cash for preparation: +2"
+    },
+    "hint": "Ignoring the door adds Heat.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 4,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The door does what the night needs."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "The entrance stays controlled."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 3,
+      "loyalty": -1,
+      "text": "The door is a quarrel."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 2,
+      "loyalty": 0,
+      "text": "An ignored door adds Heat."
+    }
+  },
+  {
+    "id": "n12_midnight_a",
+    "night": 12,
+    "phase": "midnight",
+    "title": "Heat or Heart",
+    "locationName": "Rooftop",
+    "background": "bg_rooftop",
+    "icon": "decor_city_clock",
+    "setup": "From the roof, the city shows you the cost of Heat and the value of the crew.",
+    "description": "You still play the operation. The ending math waits for the summary.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 8,
+    "threat": "dangerous",
+    "difficulty": "Severe",
+    "tags": [],
+    "rewardIcons": [
+      "heat",
+      "loyalty"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the roof adds Heat.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 2,
+      "heat": -4,
+      "loyalty": 2,
+      "text": "You come down cooler and still together."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 1,
+      "text": "The roof gives you a clear hour."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 6,
+      "loyalty": -2,
+      "text": "The roof makes the pressure worse."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": 0,
+      "heat": 3,
+      "loyalty": 0,
+      "text": "An unwatched roof adds Heat."
+    }
+  },
+  {
+    "id": "n12_midnight_b",
+    "night": 12,
+    "phase": "midnight",
+    "title": "The Crew’s Question",
+    "locationName": "Headquarters",
+    "background": "bg_headquarters_table",
+    "icon": "decor_gold_lighter",
+    "setup": "Someone asks, plainly, what the crew is for if the night ends.",
+    "description": "Answer without crowning yourself. Charm fits. Cunning can answer too.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "outsmart",
+    "riskyApproach": "standFirm",
+    "threshold": 7,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the question costs Loyalty.",
+    "strongSuccess": {
+      "cash": 10,
+      "influence": 3,
+      "heat": 0,
+      "loyalty": 3,
+      "text": "The answer keeps the crew in the room."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 2,
+      "text": "The question gets a straight answer."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": -2,
+      "text": "The answer sounds like a throne."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "An unanswered question costs Influence."
+    }
+  },
+  {
+    "id": "n12_lastCall_a",
+    "night": 12,
+    "phase": "lastCall",
+    "title": "Last Call",
+    "locationName": "Velvet Club",
+    "background": "bg_velvet_club_interior",
+    "icon": "decor_trumpet",
+    "setup": "The club is closing. The crew can leave as a group or as a rumor.",
+    "description": "The preferred approach is Talk. The ending is still the sum of the night, not this toast alone.",
+    "suggestedSkill": "charm",
+    "preferredApproach": "talk",
+    "neutralApproach": "standFirm",
+    "riskyApproach": "outsmart",
+    "threshold": 8,
+    "threat": "uncertain",
+    "difficulty": "Uncertain",
+    "tags": [
+      "club"
+    ],
+    "rewardIcons": [
+      "loyalty",
+      "influence"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring last call costs Influence.",
+    "strongSuccess": {
+      "cash": 20,
+      "influence": 4,
+      "heat": -1,
+      "loyalty": 2,
+      "text": "Last call sounds like a crew, not a coronation."
+    },
+    "success": {
+      "cash": 10,
+      "influence": 2,
+      "heat": 0,
+      "loyalty": 1,
+      "text": "You close the club cleanly."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 3,
+      "loyalty": -2,
+      "text": "Last call sounds like a claim."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -2,
+      "heat": 1,
+      "loyalty": 0,
+      "text": "A missed last call costs Influence and adds Heat."
+    }
+  },
+  {
+    "id": "n12_lastCall_b",
+    "night": 12,
+    "phase": "lastCall",
+    "title": "The Empty Toast",
+    "locationName": "Rooftop",
+    "background": "bg_rooftop",
+    "icon": "decor_gold_coin",
+    "setup": "There is time for one quiet toast with no audience.",
+    "description": "Nerve keeps it from becoming a speech. The city will do the rest at dawn.",
+    "suggestedSkill": "nerve",
+    "preferredApproach": "standFirm",
+    "neutralApproach": "talk",
+    "riskyApproach": "outsmart",
+    "threshold": 7,
+    "threat": "controlled",
+    "difficulty": "Steady",
+    "tags": [],
+    "rewardIcons": [
+      "loyalty",
+      "heat"
+    ],
+    "minCharacters": 1,
+    "maxCharacters": 2,
+    "preparation": null,
+    "hint": "Ignoring the toast costs Loyalty.",
+    "strongSuccess": {
+      "cash": 0,
+      "influence": 2,
+      "heat": -2,
+      "loyalty": 3,
+      "text": "The toast is small, and that is why it works."
+    },
+    "success": {
+      "cash": 0,
+      "influence": 1,
+      "heat": -1,
+      "loyalty": 2,
+      "text": "You drink and go back down."
+    },
+    "failure": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 2,
+      "loyalty": -1,
+      "text": "The quiet becomes awkward."
+    },
+    "ignored": {
+      "cash": 0,
+      "influence": -1,
+      "heat": 0,
+      "loyalty": 0,
+      "text": "No toast costs a little Influence."
+    }
+  }
+]

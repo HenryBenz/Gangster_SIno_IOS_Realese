@@ -1,0 +1,374 @@
+[
+  {
+    "id": "prologue",
+    "background": "bg_headquarters_table",
+    "next": {
+      "screen": "nightIntro"
+    },
+    "lines": [
+      {
+        "id": "p1",
+        "speakerId": "vincent",
+        "speakerName": "Vincent “Velvet” Marlow",
+        "expression": "char_vincent_neutral",
+        "text": "Sit down. For this one night, the crew answers to you.",
+        "objective": "Take control for one night."
+      },
+      {
+        "id": "p2",
+        "speakerId": "vincent",
+        "speakerName": "Vincent “Velvet” Marlow",
+        "expression": "char_vincent_neutral",
+        "text": "Choose who works, how they work, and which of the two jobs you take."
+      },
+      {
+        "id": "p3",
+        "speakerId": "vincent",
+        "speakerName": "Vincent “Velvet” Marlow",
+        "expression": "char_vincent_neutral",
+        "text": "The job you do not take still leaves a smaller consequence. That is the night."
+      }
+    ]
+  },
+  {
+    "id": "night6_favor",
+    "background": "bg_safehouse",
+    "next": {
+      "screen": "phase",
+      "phase": "midnight"
+    },
+    "lines": [
+      {
+        "id": "n6a",
+        "speakerId": "miles",
+        "speakerName": "Miles “Blue Note” Reed",
+        "expression": "char_miles_neutral",
+        "text": "The ally is on the line. A favor was promised, and tonight it is being called."
+      },
+      {
+        "id": "n6b",
+        "speakerId": "miles",
+        "speakerName": "Miles “Blue Note” Reed",
+        "expression": "char_miles_neutral",
+        "text": "Honor it, or refuse it. Either way the crew will feel the answer.",
+        "choices": [
+          {
+            "id": "honor",
+            "text": "Honor the favor.",
+            "nextLineId": "n6c",
+            "effects": {
+              "cash": -150,
+              "influence": 6,
+              "loyalty": {
+                "vincent": 4,
+                "miles": 3
+              },
+              "flags": [
+                "favor_honored"
+              ]
+            },
+            "cashCost": 150
+          },
+          {
+            "id": "refuse",
+            "text": "Refuse the favor.",
+            "nextLineId": "n6d",
+            "effects": {
+              "influence": -2,
+              "heat": 6,
+              "loyalty": {
+                "miles": -4
+              },
+              "flags": [
+                "favor_refused"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "n6c",
+        "speakerId": "miles",
+        "speakerName": "Miles “Blue Note” Reed",
+        "expression": "char_miles_neutral",
+        "text": "Then the favor stands. It will be remembered.",
+        "requiresFlag": "favor_honored"
+      },
+      {
+        "id": "n6d",
+        "speakerId": "miles",
+        "speakerName": "Miles “Blue Note” Reed",
+        "expression": "char_miles_neutral",
+        "text": "Then the favor is broken. That will be remembered too.",
+        "requiresFlag": "favor_refused"
+      }
+    ]
+  },
+  {
+    "id": "night9_ledger",
+    "background": "bg_safehouse",
+    "next": {
+      "screen": "phase",
+      "phase": "midnight"
+    },
+    "lines": [
+      {
+        "id": "n9a",
+        "speakerId": "elias",
+        "speakerName": "Elias “Numbers” Finch",
+        "expression": "char_elias_tense",
+        "text": "The pages have been steered for a long time. Correcting them costs something."
+      },
+      {
+        "id": "n9b",
+        "speakerId": "elias",
+        "speakerName": "Elias “Numbers” Finch",
+        "expression": "char_elias_tense",
+        "text": "Pay to put the book back, or burn the pages and lose the standing they bought.",
+        "choices": [
+          {
+            "id": "pay",
+            "text": "Pay to correct the ledger.",
+            "nextLineId": "n9c",
+            "effects": {
+              "cash": -200,
+              "influence": 2,
+              "heat": -8,
+              "flags": [
+                "ledger_paid"
+              ]
+            },
+            "cashCost": 200
+          },
+          {
+            "id": "burn",
+            "text": "Burn the pages.",
+            "nextLineId": "n9d",
+            "effects": {
+              "influence": -8,
+              "heat": -4,
+              "loyalty": {
+                "elias": -3
+              },
+              "flags": [
+                "ledger_burned"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "n9c",
+        "speakerId": "elias",
+        "speakerName": "Elias “Numbers” Finch",
+        "expression": "char_elias_tense",
+        "text": "The cash is gone. The book is cleaner, and the Heat comes down.",
+        "requiresFlag": "ledger_paid"
+      },
+      {
+        "id": "n9d",
+        "speakerId": "elias",
+        "speakerName": "Elias “Numbers” Finch",
+        "expression": "char_elias_tense",
+        "text": "The pages are ash. Influence goes with them.",
+        "requiresFlag": "ledger_burned"
+      }
+    ]
+  },
+  {
+    "id": "night11_debts",
+    "background": "bg_headquarters_table",
+    "next": {
+      "screen": "phase",
+      "phase": "midnight"
+    },
+    "onEnter": {
+      "onceFlag": "night11_debts_applied",
+      "branches": [
+        {
+          "flag": "favor_honored",
+          "influence": 4,
+          "heat": -2
+        },
+        {
+          "flag": "favor_refused",
+          "influence": -3,
+          "heat": 4
+        },
+        {
+          "flag": "ledger_paid",
+          "heat": -3
+        },
+        {
+          "flag": "ledger_burned",
+          "influence": -2,
+          "heat": 2
+        }
+      ]
+    },
+    "lines": [
+      {
+        "id": "n11a",
+        "speakerId": "roxie",
+        "speakerName": "Roxie Vane",
+        "expression": "char_roxie_neutral",
+        "text": "The debts are here whether we invite them or not."
+      },
+      {
+        "id": "n11b",
+        "speakerId": "miles",
+        "speakerName": "Miles “Blue Note” Reed",
+        "expression": "char_miles_neutral",
+        "text": "The ally you helped is opening a quiet door.",
+        "requiresFlag": "favor_honored"
+      },
+      {
+        "id": "n11c",
+        "speakerId": "miles",
+        "speakerName": "Miles “Blue Note” Reed",
+        "expression": "char_miles_neutral",
+        "text": "The ally you refused is keeping a door shut.",
+        "requiresFlag": "favor_refused"
+      },
+      {
+        "id": "n11d",
+        "speakerId": "elias",
+        "speakerName": "Elias “Numbers” Finch",
+        "expression": "char_elias_tense",
+        "text": "The money you paid has made the book less dangerous.",
+        "requiresFlag": "ledger_paid"
+      },
+      {
+        "id": "n11e",
+        "speakerId": "elias",
+        "speakerName": "Elias “Numbers” Finch",
+        "expression": "char_elias_tense",
+        "text": "The pages you burned still cost standing in this district.",
+        "requiresFlag": "ledger_burned"
+      },
+      {
+        "id": "n11f",
+        "speakerId": "vincent",
+        "speakerName": "Vincent “Velvet” Marlow",
+        "expression": "char_vincent_neutral",
+        "text": "Heat at the limit ends this story, unless the crew is held through it.",
+        "choices": [
+          {
+            "id": "hold",
+            "text": "Keep the crew at the table.",
+            "nextLineId": "n11g",
+            "effects": {
+              "loyalty": {
+                "vincent": 6,
+                "roxie": 6,
+                "bruno": 6,
+                "elias": 6,
+                "june": 6,
+                "miles": 6
+              },
+              "flags": [
+                "heatEndingOverride"
+              ]
+            }
+          },
+          {
+            "id": "release",
+            "text": "Let the district take the rest.",
+            "nextLineId": "n11h",
+            "effects": {
+              "heat": -6,
+              "flags": [
+                "district_release"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "n11g",
+        "speakerId": "vincent",
+        "speakerName": "Vincent “Velvet” Marlow",
+        "expression": "char_vincent_neutral",
+        "text": "Then we stay, even if Heat reaches the limit.",
+        "requiresFlag": "heatEndingOverride"
+      },
+      {
+        "id": "n11h",
+        "speakerId": "vincent",
+        "speakerName": "Vincent “Velvet” Marlow",
+        "expression": "char_vincent_neutral",
+        "text": "Then Heat comes down, and the limit still ends it.",
+        "requiresFlag": "district_release"
+      }
+    ]
+  },
+  {
+    "id": "ending_king",
+    "background": "bg_city_dawn",
+    "next": {
+      "screen": "endingCard"
+    },
+    "lines": [
+      {
+        "id": "ek1",
+        "speakerId": "vincent",
+        "speakerName": "Vincent “Velvet” Marlow",
+        "expression": "char_vincent_neutral",
+        "text": "Dawn, and the crew is still on the balcony."
+      },
+      {
+        "id": "ek2",
+        "speakerId": "roxie",
+        "speakerName": "Roxie Vane",
+        "expression": "char_roxie_neutral",
+        "text": "Influence held. Heat stayed down. The chairs are filled."
+      }
+    ]
+  },
+  {
+    "id": "ending_family",
+    "background": "bg_velvet_club_interior",
+    "next": {
+      "screen": "endingCard"
+    },
+    "lines": [
+      {
+        "id": "ef1",
+        "speakerId": "bruno",
+        "speakerName": "Bruno “Brick” Bell",
+        "expression": "char_bruno_neutral",
+        "text": "The club is closed. The people are still here."
+      },
+      {
+        "id": "ef2",
+        "speakerId": "elias",
+        "speakerName": "Elias “Numbers” Finch",
+        "expression": "char_elias_tense",
+        "text": "The books can wait. The crew cannot."
+      }
+    ]
+  },
+  {
+    "id": "ending_city",
+    "background": "bg_city_dawn",
+    "next": {
+      "screen": "endingCard"
+    },
+    "lines": [
+      {
+        "id": "ec1",
+        "speakerId": null,
+        "speakerName": "Night",
+        "expression": null,
+        "text": "The office is empty. The chairs are not."
+      },
+      {
+        "id": "ec2",
+        "speakerId": null,
+        "speakerName": "Night",
+        "expression": null,
+        "text": "The city continues, and it does not have a boss."
+      }
+    ]
+  }
+]

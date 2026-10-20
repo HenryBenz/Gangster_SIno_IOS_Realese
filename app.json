@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Gangster Sino",
+    "slug": "gangster-sino",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app_icon_master.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#061638",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.gangstersino.sino",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "requireFullScreen": true,
+      "infoPlist": {
+        "LSRequiresIPhoneOS": true,
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      "expo-dev-client",
+      "expo-font",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#061638",
+          "image": "./assets/images/splash_emblem.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "extra": {
+      "productId": "gangster_sino_black_label"
+    }
+  }
+}

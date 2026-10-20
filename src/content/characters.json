@@ -1,0 +1,236 @@
+[
+  {
+    "id": "vincent",
+    "name": "Vincent “Velvet” Marlow",
+    "nickname": "Velvet",
+    "role": "Frontman",
+    "personality": "A charismatic frontman, not a violent man.",
+    "charm": 5,
+    "nerve": 3,
+    "cunning": 4,
+    "trait": "First Charm approach each Night gains +1",
+    "cue": "cue_vincent",
+    "portraits": {
+      "neutral": "char_vincent_neutral",
+      "confident": "char_vincent_confident",
+      "tense": "char_vincent_tense"
+    },
+    "biography": [
+      {
+        "id": "vincent_1",
+        "unlockNight": 1,
+        "text": "Vincent “Velvet” Marlow is a tall, slim man in his early thirties, with an angular friendly face, dark swept-back hair, a thin mustache, and expressive eyebrows."
+      },
+      {
+        "id": "vincent_2",
+        "unlockNight": 4,
+        "text": "He wears a navy long-cut suit, a mustard-gold shirt, and a burgundy pocket square, and he keeps a gold lighter closed in his hand."
+      },
+      {
+        "id": "vincent_3",
+        "unlockNight": 8,
+        "text": "Charm 5, Nerve 3, Cunning 4. The first Charm approach he takes each Night gains +1."
+      },
+      {
+        "id": "vincent_4",
+        "unlockNight": 12,
+        "text": "He is the crew’s frontman: the person who can make a room listen without turning the night cruel."
+      }
+    ]
+  },
+  {
+    "id": "roxie",
+    "name": "Roxie Vane",
+    "nickname": "Roxie",
+    "role": "Nightclub owner",
+    "personality": "Poised, confident, and intelligent.",
+    "charm": 5,
+    "nerve": 4,
+    "cunning": 4,
+    "trait": "Club and society operations reduce Heat by 2",
+    "cue": "cue_roxie",
+    "portraits": {
+      "neutral": "char_roxie_neutral",
+      "confident": "char_roxie_confident",
+      "tense": "char_roxie_tense"
+    },
+    "biography": [
+      {
+        "id": "roxie_1",
+        "unlockNight": 1,
+        "text": "Roxie Vane is an elegant woman in her early thirties, with a sharp black bob and one restrained burgundy streak."
+      },
+      {
+        "id": "roxie_2",
+        "unlockNight": 4,
+        "text": "She wears an emerald tailored trouser suit, a cream silk blouse, and large geometric gold earrings."
+      },
+      {
+        "id": "roxie_3",
+        "unlockNight": 8,
+        "text": "Charm 5, Nerve 4, Cunning 4. Club and society operations reduce Heat by 2 when she is assigned."
+      },
+      {
+        "id": "roxie_4",
+        "unlockNight": 12,
+        "text": "She is the poised owner of the club, and she treats the room as a system she already understands."
+      }
+    ]
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno “Brick” Bell",
+    "nickname": "Brick",
+    "role": "Bodyguard",
+    "personality": "Gentle, imposing, and protective.",
+    "charm": 2,
+    "nerve": 5,
+    "cunning": 3,
+    "trait": "Failed Nerve operations do not reduce crew loyalty",
+    "cue": "cue_bruno",
+    "portraits": {
+      "neutral": "char_bruno_neutral",
+      "confident": "char_bruno_confident",
+      "tense": "char_bruno_tense"
+    },
+    "biography": [
+      {
+        "id": "bruno_1",
+        "unlockNight": 1,
+        "text": "Bruno “Brick” Bell is an enormous broad-shouldered man in his late thirties, with a small round head, warm medium skin, and close-cropped dark hair."
+      },
+      {
+        "id": "bruno_2",
+        "unlockNight": 4,
+        "text": "Tiny round gold glasses, a burgundy turtleneck, and a charcoal overcoat make his silhouette unmistakable and protective."
+      },
+      {
+        "id": "bruno_3",
+        "unlockNight": 8,
+        "text": "Charm 2, Nerve 5, Cunning 3. Failed Nerve operations do not reduce crew loyalty when he is assigned."
+      },
+      {
+        "id": "bruno_4",
+        "unlockNight": 12,
+        "text": "He is a gentle bodyguard. His hands stay closed, and his job is to keep the crew intact."
+      }
+    ]
+  },
+  {
+    "id": "elias",
+    "name": "Elias “Numbers” Finch",
+    "nickname": "Numbers",
+    "role": "Accountant",
+    "personality": "Brilliant, precise, and anxious.",
+    "charm": 2,
+    "nerve": 2,
+    "cunning": 5,
+    "trait": "Cash rewards are increased by 10%, rounded up",
+    "cue": "cue_elias",
+    "portraits": {
+      "neutral": "char_elias_neutral",
+      "confident": "char_elias_confident",
+      "tense": "char_elias_tense"
+    },
+    "biography": [
+      {
+        "id": "elias_1",
+        "unlockNight": 1,
+        "text": "Elias “Numbers” Finch is a very tall, thin man in his mid-thirties, with a long expressive nose and slightly messy brown hair."
+      },
+      {
+        "id": "elias_2",
+        "unlockNight": 4,
+        "text": "He wears a pale blue rolled-sleeve shirt and navy suspenders, and he carries a green ledger and a gold fountain pen."
+      },
+      {
+        "id": "elias_3",
+        "unlockNight": 8,
+        "text": "Charm 2, Nerve 2, Cunning 5. Cash rewards are increased by 10%, rounded up, when he is assigned."
+      },
+      {
+        "id": "elias_4",
+        "unlockNight": 12,
+        "text": "He is the crew’s anxious accountant, happiest when a calculation finally agrees with itself."
+      }
+    ]
+  },
+  {
+    "id": "june",
+    "name": "June “Spark” Navarro",
+    "nickname": "Spark",
+    "role": "Driver and mechanic",
+    "personality": "Energetic, practical, and exact.",
+    "charm": 3,
+    "nerve": 5,
+    "cunning": 3,
+    "trait": "Transport operations do not consume Cash",
+    "cue": "cue_june",
+    "portraits": {
+      "neutral": "char_june_neutral",
+      "confident": "char_june_confident",
+      "tense": "char_june_tense"
+    },
+    "biography": [
+      {
+        "id": "june_1",
+        "unlockNight": 1,
+        "text": "June “Spark” Navarro is an athletic woman in her late twenties, with copper curly hair tied high."
+      },
+      {
+        "id": "june_2",
+        "unlockNight": 4,
+        "text": "She wears a cobalt-blue mechanic coverall tied at the waist over a cream shirt, mustard work gloves, and carries a gold-toned wrench."
+      },
+      {
+        "id": "june_3",
+        "unlockNight": 8,
+        "text": "Charm 3, Nerve 5, Cunning 3. Transport operations do not consume Cash when she is assigned."
+      },
+      {
+        "id": "june_4",
+        "unlockNight": 12,
+        "text": "She is the crew’s driver and mechanic. The wrench is a tool, and the route is her work."
+      }
+    ]
+  },
+  {
+    "id": "miles",
+    "name": "Miles “Blue Note” Reed",
+    "nickname": "Blue Note",
+    "role": "Musician and information broker",
+    "personality": "Calm, experienced, and observant.",
+    "charm": 4,
+    "nerve": 3,
+    "cunning": 5,
+    "trait": "Reveals one consequence hint before confirmation",
+    "cue": "cue_miles",
+    "portraits": {
+      "neutral": "char_miles_neutral",
+      "confident": "char_miles_confident",
+      "tense": "char_miles_tense"
+    },
+    "biography": [
+      {
+        "id": "miles_1",
+        "unlockNight": 1,
+        "text": "Miles “Blue Note” Reed is a distinguished man in his late fifties, with a silver goatee and a cream fedora with a navy band."
+      },
+      {
+        "id": "miles_2",
+        "unlockNight": 4,
+        "text": "He wears a cobalt double-breasted suit and a warm gold tie pin, and he carries a polished golden trumpet."
+      },
+      {
+        "id": "miles_3",
+        "unlockNight": 8,
+        "text": "Charm 4, Nerve 3, Cunning 5. If he is in the Night’s crew, he reveals one consequence hint before confirmation."
+      },
+      {
+        "id": "miles_4",
+        "unlockNight": 12,
+        "text": "He is the club’s musician and the crew’s information broker, calm enough to hear what the room is not saying."
+      }
+    ]
+  }
+]

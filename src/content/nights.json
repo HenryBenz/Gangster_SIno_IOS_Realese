@@ -1,0 +1,271 @@
+[
+  {
+    "number": 1,
+    "title": "A Seat at the Table",
+    "purpose": "Vincent asks the player to take control for one night",
+    "mechanic": "Tutorial: choose crew and approach",
+    "setup": "Vincent asks you to take control for one night.",
+    "objective": "Take control for one night.",
+    "chips": [
+      "Choose three crew",
+      "Choose an approach",
+      "Finish three phases"
+    ],
+    "briefingObjective": "Choose three crew, then one operation in Dusk, Midnight, and Last Call.",
+    "risks": "The operation you do not choose still leaves a smaller consequence.",
+    "suggestedSkills": [
+      "charm"
+    ],
+    "featuredCharacterId": "vincent",
+    "summaryResult": "You took the chair and finished the first night."
+  },
+  {
+    "number": 2,
+    "title": "The Velvet Door",
+    "purpose": "Roxie’s club becomes the crew’s temporary headquarters",
+    "mechanic": "Cash costs and social operations",
+    "setup": "Roxie’s club becomes the crew’s temporary headquarters.",
+    "objective": "Use the club without letting the tab run the night.",
+    "chips": [
+      "Cash preparation",
+      "Club operations",
+      "Society rooms"
+    ],
+    "briefingObjective": "Work the club and the society rooms. Preparation costs Cash.",
+    "risks": "Social rooms add Heat when they are handled loudly.",
+    "suggestedSkills": [
+      "charm",
+      "cunning"
+    ],
+    "featuredCharacterId": "roxie",
+    "summaryResult": "The club stayed open, and the cash had a cost."
+  },
+  {
+    "number": 3,
+    "title": "The Missing Envelope",
+    "purpose": "An important payment disappears",
+    "mechanic": "Character loyalty",
+    "setup": "An important payment disappears from the crew’s keeping.",
+    "objective": "Find the envelope without breaking the crew.",
+    "chips": [
+      "Loyalty rises",
+      "Loyalty falls",
+      "The envelope"
+    ],
+    "briefingObjective": "Recover the payment. The way you ask will move loyalty.",
+    "risks": "A hard question can cost more loyalty than the cash is worth.",
+    "suggestedSkills": [
+      "charm",
+      "cunning"
+    ],
+    "featuredCharacterId": "elias",
+    "summaryResult": "The envelope’s absence changed who trusts the table."
+  },
+  {
+    "number": 4,
+    "title": "Blue Lights, Quiet Streets",
+    "purpose": "Pressure rises across the district",
+    "mechanic": "Heat management",
+    "setup": "Pressure rises across the district, and the streets are no longer casual.",
+    "objective": "Finish the night with Heat under control.",
+    "chips": [
+      "Watch Heat",
+      "Quiet streets",
+      "Keep the night cool"
+    ],
+    "briefingObjective": "Keep the crew off the bright streets. Heat is the danger.",
+    "risks": "A visible hour can push Heat faster than Influence can help.",
+    "suggestedSkills": [
+      "cunning",
+      "nerve"
+    ],
+    "featuredCharacterId": "bruno",
+    "summaryResult": "The district noticed the crew, or it did not."
+  },
+  {
+    "number": 5,
+    "title": "Family Business",
+    "purpose": "Two crew members disagree about priorities",
+    "mechanic": "Relationship bonuses and conflicts",
+    "setup": "Bruno and Elias disagree about what the crew should protect first.",
+    "objective": "Get through the disagreement without splitting the table.",
+    "chips": [
+      "Old partners",
+      "Tension",
+      "Choose pairs"
+    ],
+    "briefingObjective": "Bruno wants protection. Elias wants the books. Pairs matter.",
+    "risks": "A tense pair subtracts from the score. Old partners add one.",
+    "suggestedSkills": [
+      "nerve",
+      "cunning"
+    ],
+    "featuredCharacterId": "bruno",
+    "summaryResult": "The disagreement was managed through the people you paired."
+  },
+  {
+    "number": 6,
+    "title": "A Broken Promise",
+    "purpose": "An old ally calls in a favor",
+    "mechanic": "Branching story choice",
+    "setup": "An old ally calls in a favor the crew once made.",
+    "objective": "Answer the favor and live with that answer.",
+    "chips": [
+      "A favor",
+      "Two choices",
+      "Live with it"
+    ],
+    "briefingObjective": "The ally wants an answer. You will choose after Dusk.",
+    "risks": "Either answer changes Influence, Cash, Heat, or loyalty.",
+    "suggestedSkills": [
+      "charm"
+    ],
+    "featuredCharacterId": "miles",
+    "summaryResult": "The favor was answered, and the answer remains.",
+    "interrupt": {
+      "afterPhase": "dusk",
+      "sceneId": "night6_favor"
+    }
+  },
+  {
+    "number": 7,
+    "title": "The City in Gold",
+    "purpose": "A high-profile event offers influence and risk",
+    "mechanic": "Two-character operations",
+    "setup": "A high-profile night offers Influence, and every job needs two of the crew.",
+    "objective": "Be seen with the right pair.",
+    "chips": [
+      "Two characters",
+      "High rooms",
+      "Shared risk"
+    ],
+    "briefingObjective": "Every operation tonight requires two assigned characters.",
+    "risks": "The rooms pay Influence and charge Heat when the pair is wrong.",
+    "suggestedSkills": [
+      "charm",
+      "cunning"
+    ],
+    "featuredCharacterId": "roxie",
+    "summaryResult": "The gold rooms saw a pair, not a solo act.",
+    "previousConsequence": {
+      "favor_honored": "The favor you honored is still opening doors.",
+      "favor_refused": "The favor you refused is still being counted."
+    }
+  },
+  {
+    "number": 8,
+    "title": "The Quiet Driver",
+    "purpose": "June discovers that someone knows the crew’s routes",
+    "mechanic": "Hidden consequence hints",
+    "setup": "June discovers that someone knows the crew’s routes.",
+    "objective": "Move the crew without teaching the city the map.",
+    "chips": [
+      "Route costs",
+      "A hint",
+      "Transport"
+    ],
+    "briefingObjective": "Transport jobs can spend Cash unless June is assigned. Miles can reveal a hint.",
+    "risks": "An ignored route adds Heat.",
+    "suggestedSkills": [
+      "cunning",
+      "nerve"
+    ],
+    "featuredCharacterId": "june",
+    "summaryResult": "The routes were either changed or left exposed."
+  },
+  {
+    "number": 9,
+    "title": "The Bad Ledger",
+    "purpose": "Elias finds evidence of long-term manipulation",
+    "mechanic": "Resource sacrifice choice",
+    "setup": "Elias finds evidence that the books have been steered for a long time.",
+    "objective": "Choose which resource you will spend to answer the ledger.",
+    "chips": [
+      "Sacrifice Cash",
+      "Sacrifice Influence",
+      "The ledger"
+    ],
+    "briefingObjective": "After Dusk you must sacrifice either Cash or Influence.",
+    "risks": "Both answers cost something the ending still counts.",
+    "suggestedSkills": [
+      "cunning"
+    ],
+    "featuredCharacterId": "elias",
+    "summaryResult": "The ledger was answered by a sacrifice.",
+    "interrupt": {
+      "afterPhase": "dusk",
+      "sceneId": "night9_ledger"
+    }
+  },
+  {
+    "number": 10,
+    "title": "Smoke Before Dawn",
+    "purpose": "The district begins choosing sides",
+    "mechanic": "High-pressure operations",
+    "setup": "The district begins choosing sides before dawn.",
+    "objective": "Hold through the severe operations.",
+    "chips": [
+      "High pressure",
+      "Severe jobs",
+      "Hold steady"
+    ],
+    "briefingObjective": "Thresholds are high. Match the suggested skill or spend preparation.",
+    "risks": "Failure adds large Heat.",
+    "suggestedSkills": [
+      "nerve",
+      "charm"
+    ],
+    "featuredCharacterId": "vincent",
+    "summaryResult": "The district chose, and the crew felt the pressure.",
+    "previousConsequence": {
+      "ledger_paid": "The cash you spent on the ledger bought a quieter book.",
+      "ledger_burned": "Burning the pages cost Influence that this district can feel."
+    }
+  },
+  {
+    "number": 11,
+    "title": "All Debts Are Due",
+    "purpose": "Every earlier alliance produces a consequence",
+    "mechanic": "Condition-based content",
+    "setup": "Every earlier alliance produces a consequence tonight.",
+    "objective": "Face the debts and decide whether the crew stays to the end.",
+    "chips": [
+      "Old choices return",
+      "Debts",
+      "One more night"
+    ],
+    "briefingObjective": "The favor and the ledger come due. After Dusk you can hold the crew past a Heat crisis.",
+    "risks": "Heat at 100 ends the story unless that hold is chosen.",
+    "suggestedSkills": [
+      "charm",
+      "cunning"
+    ],
+    "featuredCharacterId": "miles",
+    "summaryResult": "The old choices presented their bill.",
+    "interrupt": {
+      "afterPhase": "dusk",
+      "sceneId": "night11_debts"
+    }
+  },
+  {
+    "number": 12,
+    "title": "Last Call",
+    "purpose": "Final confrontation and decision about the crew’s future",
+    "mechanic": "Ending calculation",
+    "setup": "The last night decides what the crew is at dawn.",
+    "objective": "Finish Last Call. The ending is calculated from the campaign.",
+    "chips": [
+      "Final phases",
+      "The crew’s future",
+      "Last Call"
+    ],
+    "briefingObjective": "Play the last three phases. Influence, Heat, and loyalty choose the ending.",
+    "risks": "Heat at 100 still ends the campaign early unless the story override is already in place.",
+    "suggestedSkills": [
+      "charm",
+      "nerve"
+    ],
+    "featuredCharacterId": "vincent",
+    "summaryResult": "Last Call is over. The ending uses the whole campaign."
+  }
+]

@@ -1,0 +1,59 @@
+# Подпись идёт через Code signing identities в Codemagic, как в UI-workflow.
+# CERTIFICATE_PRIVATE_KEY больше не нужен.
+#
+# Один раз в Codemagic:
+# Team settings → codemagic.yaml settings → Code signing identities
+# 1. iOS certificates → Generate certificate → Apple Distribution
+#    API key: GangsterSino
+# 2. iOS provisioning profiles → Fetch profiles → App Store
+#    для com.gangstersino.sino
+# Если Apple пишет, что Distribution-сертификатов уже 3:
+# https://developer.apple.com/account/resources/certificates/list
+
+workflows:
+  ios-release:
+    name: iOS App Store Connect Release
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: GangsterSino
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.gangstersino.sino
+      vars:
+        BUNDLE_ID: com.gangstersino.sino
+        XCODE_WORKSPACE: ios/GangsterSino.xcworkspace
+        XCODE_SCHEME: GangsterSino
+      node: 22
+      xcode: latest
+    scripts:
+      - name: Install npm dependencies
+        script: npm ci
+      - name: Install CocoaPods
+        script: |
+          cd ios
+          pod install
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Increment build number
+        script: |
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-testflight-build-number "$BUNDLE_ID" --platform IOS || echo 0)
+          NEW_BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
+          echo "Using build number $NEW_BUILD_NUMBER"
+          echo "NEW_BUILD_NUMBER=$NEW_BUILD_NUMBER" >> "$CM_ENV"
+      - name: Build IPA
+        script: |
+          xcode-project build-ipa \
+            --workspace "$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME" \
+            --archive-xcargs "CURRENT_PROJECT_VERSION=$NEW_BUILD_NUMBER"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false

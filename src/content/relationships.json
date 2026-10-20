@@ -1,0 +1,107 @@
+[
+  {
+    "a": "vincent",
+    "b": "roxie",
+    "kind": "partnership",
+    "bonus": 1,
+    "phrase": "Old partners: +1"
+  },
+  {
+    "a": "vincent",
+    "b": "bruno",
+    "kind": "partnership",
+    "bonus": 1,
+    "phrase": "Old partners: +1"
+  },
+  {
+    "a": "vincent",
+    "b": "miles",
+    "kind": "partnership",
+    "bonus": 1,
+    "phrase": "Old partners: +1"
+  },
+  {
+    "a": "roxie",
+    "b": "miles",
+    "kind": "partnership",
+    "bonus": 1,
+    "phrase": "Old partners: +1"
+  },
+  {
+    "a": "bruno",
+    "b": "june",
+    "kind": "partnership",
+    "bonus": 1,
+    "phrase": "Old partners: +1"
+  },
+  {
+    "a": "elias",
+    "b": "june",
+    "kind": "partnership",
+    "bonus": 1,
+    "phrase": "Old partners: +1"
+  },
+  {
+    "a": "bruno",
+    "b": "elias",
+    "kind": "conflict",
+    "bonus": -1,
+    "phrase": "Tension: −1"
+  },
+  {
+    "a": "roxie",
+    "b": "june",
+    "kind": "conflict",
+    "bonus": -1,
+    "phrase": "Tension: −1"
+  },
+  {
+    "a": "vincent",
+    "b": "elias",
+    "kind": "neutral",
+    "bonus": 0,
+    "phrase": null
+  },
+  {
+    "a": "vincent",
+    "b": "june",
+    "kind": "neutral",
+    "bonus": 0,
+    "phrase": null
+  },
+  {
+    "a": "roxie",
+    "b": "bruno",
+    "kind": "neutral",
+    "bonus": 0,
+    "phrase": null
+  },
+  {
+    "a": "roxie",
+    "b": "elias",
+    "kind": "neutral",
+    "bonus": 0,
+    "phrase": null
+  },
+  {
+    "a": "bruno",
+    "b": "miles",
+    "kind": "neutral",
+    "bonus": 0,
+    "phrase": null
+  },
+  {
+    "a": "elias",
+    "b": "miles",
+    "kind": "neutral",
+    "bonus": 0,
+    "phrase": null
+  },
+  {
+    "a": "june",
+    "b": "miles",
+    "kind": "neutral",
+    "bonus": 0,
+    "phrase": null
+  }
+]
